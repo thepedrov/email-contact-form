@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script type="module" src="js/send_mail.js"></script>
+</head>
+
+<body>
+    <div>
+        <form id="frmContact">
+            <div>
+                <label for="txtName">Name:</label>
+                <input type="text" id="txtName" />
+                <span id="errorName"></span>
+            </div>
+            <div>
+                <label for="txtEmail">Email:</label>
+                <input type="text" id="txtEmail" />
+                <span id="errorEmail"></span>
+            </div>
+            <div>
+                <label for="txtSubject">Subject:</label>
+                <input type="text" id="txtSubject" />
+                <span id="errorSubject"></span>
+            </div>
+            <div>
+                <label for="txtMessage">Message:</label>
+                <textarea id="txtMessage" wrap="hard"></textarea>
+                <span id="errorMessage"></span>
+            </div>
+            <div>
+                <button type="submit">Send</button>
+            </div>
+            <div>
+                <span id="statusMessage"></span>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
